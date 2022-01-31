@@ -1,0 +1,47 @@
+
+
+body {
+
+	background-color: #95a5a6;
+}
+
+h1 {font-size: 40px;
+
+}
+
+#photos {
+	display: grid;
+	margin-left: -10px;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 50% 50%;
+
+}
+
+#imgone {
+
+	grid-column: auto;
+
+}
+
+#imgtwo {
+
+   grid-column-start: 2;
+
+}
+
+#imgthree {
+
+   grid-column-start: 3;
+
+}
+
+#imgfour {
+
+   grid-column-start: 4;
+
+}
+
+p {
+   text-align: center;
+   font-size: 20px;
+}
